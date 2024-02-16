@@ -1,5 +1,6 @@
 import {
   ActivityIndicator,
+  KeyboardAvoidingView,
   Pressable,
   SafeAreaView,
   StyleSheet,
@@ -211,7 +212,7 @@ const Form = () => {
     }
   };
   return (
-    <SafeAreaView style={styles.container}>
+    <KeyboardAvoidingView style={styles.container}>
       <Pressable
         style={styles.backBtn}
         onPress={() => navigation.navigate("Slider")}
@@ -284,7 +285,7 @@ const Form = () => {
           )}
         </View>
       )}
-    </SafeAreaView>
+    </KeyboardAvoidingView>
   );
 };
 
@@ -304,7 +305,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#ccc",
     position: "absolute",
-    top: 70,
+    top: 30,
     left: 20,
     padding: 5,
     borderTopRightRadius: 9,
@@ -317,8 +318,8 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     // backgroundColor: "#fff",
     zIndex: 10,
-    position: "absolute",
-    bottom: 50,
+    position: "relative",
+    bottom: 100,
     alignItems: "center",
     justifyContent: "space-around",
     width: "100%",

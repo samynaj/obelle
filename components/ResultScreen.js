@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: "#ccc",
     position: "absolute",
-    top: 10,
+    top: 30,
     right: 20,
     padding: 7,
     borderRadius: 10,

@@ -189,7 +189,7 @@ const styles = StyleSheet.create({
     left: 0,
     padding: 20,
     width: "100%",
-    height: 600,
+    height: 700,
   },
   title: {
     color: "#f7a400",
