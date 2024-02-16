@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "obelle3",
+    "name": "Obelle",
     "slug": "obelle3",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,20 +11,25 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.namezudin.obelle3"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.namezudin.obelle3"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "11194664-70cb-47d3-99e7-1ce6d8f7224d"
+      }
     }
   }
 }
